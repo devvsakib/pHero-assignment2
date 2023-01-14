@@ -6,7 +6,7 @@
     --description-color: #727272;
     --primary-color: #FF900E;
     --title-size: 2rem;
-    --banner-bg: #ff8f0e54;
+    --banner-bg: #fff0dffa;
 }
 *{
     margin: 0;
@@ -29,5 +29,83 @@ ul,li{
 button{
     border: none;
     outline: none;
+    cursor: pointer;
     background: none;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.primary-btn{
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: background 0.3s ease;
+}
+.primary-btn:hover{
+    background: #fff;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color);
+}
+.header-banner{
+    background: var(--banner-bg);
+}
+.description{
+    color: var(--description-color);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+/* Header CSS Start */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 0 !important;
+}
+.menu{
+    display: flex;
+    gap: 0 1rem;
+}
+.menu li a{
+    color: #2c2c2c;
+    font-weight: 500;
+}
+/* Header CSS End */
+
+/* Banner CSS Start */
+
+.banner-content{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 1rem 0;
+}
+.banner-image {
+    padding-bottom: 2.5rem;
+}
+/* Banner CSS End */
+/*  CSS Start */
+/*  CSS End */
+/*  CSS Start */
+/*  CSS End */
+/*  CSS Start */
+/*  CSS End */
+/*  CSS Start */
+/*  CSS End */
+/*  CSS Start */
+/*  CSS End */

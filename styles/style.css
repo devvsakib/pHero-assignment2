@@ -5,7 +5,7 @@
 :root{
     --description-color: #727272;
     --primary-color: #FF900E;
-    --title-size: 2rem;
+    --title-size: 2.5rem;
     --banner-bg: #fff0dffa;
 }
 *{
@@ -64,6 +64,12 @@ button{
     line-height: 1.5;
     margin: 1rem 0;
 }
+.title{
+    font-size: var(--title-size);
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 1rem 0;
+}
 /* Header CSS Start */
 header{
     display: flex;
@@ -99,10 +105,37 @@ header{
     padding-bottom: 2.5rem;
 }
 /* Banner CSS End */
+
+/* Feature CSS Start */
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 5rem 0;
+    gap: 0 3rem;
+}
+.feature-section > div{
+    flex: 1;
+}
+.feature-left-gallary{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+.feat-color{
+    color: var(--primary-color);
+}
+.feat-quick{
+    font-weight: 500;
+    color: #2c2c2c;
+    margin: 1rem 0;
+}
+/* Feature CSS End */
+
 /*  CSS Start */
 /*  CSS End */
-/*  CSS Start */
-/*  CSS End */
+
 /*  CSS Start */
 /*  CSS End */
 /*  CSS Start */

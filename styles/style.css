@@ -112,7 +112,6 @@ header {
     text-align: center;
     padding: 2rem 0;
 }
-
 .banner-title {
     font-size: 3rem;
     font-weight: 700;
@@ -167,8 +166,6 @@ header {
     margin: 5rem 0;
     gap: 0 3rem;
 }
-
-.feature-point-section>div {}
 
 .feat-title {
     border-left: .4rem solid var(--primary-color);
@@ -271,8 +268,13 @@ header {
 .sponsor-logos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
 }
-
+.sponsor-logos img {
+    width: 50%;
+    filter: grayscale(100%);
+}
 /* Sponsor CSS End */
 
 /* Testimonial CSS Start */
@@ -312,7 +314,9 @@ footer.container {
     background: var(--banner-bg);
     padding: 2rem 0;
     margin: 5rem auto;
+    border-radius: 10px;
     gap: 0 3rem;
+    margin-bottom: 2rem;
 }
 
 .copyright {
@@ -321,6 +325,10 @@ footer.container {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.5;
+}
+.copyright a{
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 /* Footer CSS End */

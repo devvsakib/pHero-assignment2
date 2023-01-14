@@ -216,9 +216,66 @@ header {
 }
 /* Feature Point CSS End */
 
-/*  CSS Start */
-/*  CSS End */
-/*  CSS Start */
-/*  CSS End */
-/*  CSS Start */
-/*  CSS End */
+/* Fact CSS Start */
+.fact-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items:center;
+    margin: 5rem 0;
+}
+.card{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+}
+.card h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #666666;
+    margin: .3rem;
+    cursor: pointer;
+}
+.card:hover{
+    border-color: transparent;
+    transition: transform 150ms linear;
+    box-shadow: 0 0 10px var(--primary-color);
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+/* Fact CSS End */
+
+/* Sponsor CSS Start */
+.sponsor-section{
+    padding: 2rem 0;
+    margin: 5rem 0;
+    gap: 0 3rem;
+}
+.sponsor-details{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+}
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* Sponsor CSS End */
+
+/* Footer CSS Start */
+/* Footer CSS End */
+
+/* Footer CSS Start */
+footer.container{
+    background: var(--banner-bg);
+    padding: 2rem 0;
+    margin: 5rem auto;
+    gap: 0 3rem;
+}
+.copyright{
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* Footer CSS End */

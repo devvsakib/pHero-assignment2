@@ -168,36 +168,41 @@ header {
     gap: 0 3rem;
 }
 
-.feature-point-section>div {
-}
+.feature-point-section>div {}
 
 .feat-title {
     border-left: .4rem solid var(--primary-color);
     padding-left: 1rem;
 }
-.feat-points{
+
+.feat-points {
     display: flex;
     flex-direction: column;
     gap: 1.4rem 0;
 }
+
 .point {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 1.5rem;
     border-radius: 10px;
 }
-.point > h3{
+
+.point>h3 {
     font-weight: 600;
     color: #2c2c2c;
     margin: 1rem 0;
 }
-.point-left{
+
+.point-left {
     width: 45%;
 }
-.point-right{
+
+.point-right {
     width: 45%;
     text-align: right;
 }
-.expreience{
+
+.expreience {
     width: max-content;
     position: relative;
     padding: 2rem 3rem;
@@ -208,74 +213,114 @@ header {
     top: -50px;
     left: -50px;
 }
-.expreience h2{
+
+.expreience h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #fff;
     margin-bottom: .3rem;
 }
+
 /* Feature Point CSS End */
 
 /* Fact CSS Start */
-.fact-cards{
+.fact-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items:center;
+    justify-items: center;
     margin: 5rem 0;
 }
-.card{
+
+.card {
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
     border: 2px solid var(--primary-color);
 }
-.card h2{
+
+.card h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #666666;
     margin: .3rem;
     cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     border-color: transparent;
     transition: transform 150ms linear;
     box-shadow: 0 0 10px var(--primary-color);
     transform: scale3d(1.05, 1.05, 1.05);
 }
+
 /* Fact CSS End */
 
 /* Sponsor CSS Start */
-.sponsor-section{
+.sponsor-section {
     padding: 2rem 0;
     margin: 5rem 0;
     gap: 0 3rem;
 }
-.sponsor-details{
+
+.sponsor-details {
     width: 50%;
     margin: 5rem auto;
     text-align: center;
 }
-.sponsor-logos{
+
+.sponsor-logos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
 /* Sponsor CSS End */
 
-/* Footer CSS Start */
-/* Footer CSS End */
+/* Testimonial CSS Start */
+.testimonial-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0;
+    margin: 5rem 0;
+    gap: 2rem 3rem;
+}
+
+.testimonial-card {
+    padding: 2rem;
+    background-color: #f8dfc275;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(228, 62, 11, 0.09);
+    border: 1px solid #c2c2c298;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-author img {
+    border-radius: 50%;
+    width: 50px;
+    border: 2px solid var(--primary-color);
+}
+
+/* Testimonial CSS End */
 
 /* Footer CSS Start */
-footer.container{
+footer.container {
     background: var(--banner-bg);
     padding: 2rem 0;
     margin: 5rem auto;
     gap: 0 3rem;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     color: #2c2c2c;
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.5;
 }
+
 /* Footer CSS End */

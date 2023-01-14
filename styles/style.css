@@ -2,31 +2,38 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 
 /* Colors and Unit */
-:root{
+:root {
     --description-color: #727272;
     --primary-color: #FF900E;
     --title-size: 2.5rem;
     --banner-bg: #fff0dffa;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-button{
+
+button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -34,12 +41,14 @@ button{
     border-radius: 10px;
     padding: 10px 20px;
 }
-.container{
+
+.container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 2rem;
 }
-.primary-btn{
+
+.primary-btn {
     background: var(--primary-color);
     color: #fff;
     border-radius: 5px;
@@ -48,66 +57,77 @@ button{
     font-size: 0.8rem;
     transition: background 0.3s ease;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background: #fff;
     padding: 10px 20px;
     color: var(--primary-color);
     box-shadow: 0 0 5px var(--primary-color);
 }
-.header-banner{
+
+.header-banner {
     background: var(--banner-bg);
 }
-.description{
+
+.description {
     color: var(--description-color);
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.5;
     margin: 1rem 0;
 }
-.title{
+
+.title {
     font-size: var(--title-size);
     font-weight: 700;
     color: #2c2c2c;
     margin: 1rem 0;
 }
+
 /* Header CSS Start */
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:2rem 0 !important;
+    padding: 2rem 0 !important;
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 0 1rem;
 }
-.menu li a{
+
+.menu li a {
     color: #2c2c2c;
     font-weight: 500;
 }
+
 /* Header CSS End */
 
 /* Banner CSS Start */
 
-.banner-content{
+.banner-content {
     width: 50vw;
     margin: 0 auto;
     text-align: center;
     padding: 2rem 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 3rem;
     font-weight: 700;
     color: #2c2c2c;
     margin: 1rem 0;
 }
+
 .banner-image {
     padding-bottom: 2.5rem;
 }
+
 /* Banner CSS End */
 
 /* Feature CSS Start */
-.feature-section{
+.feature-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,26 +135,86 @@ header{
     margin: 5rem 0;
     gap: 0 3rem;
 }
-.feature-section > div{
+
+.feature-section>div {
     flex: 1;
 }
-.feature-left-gallary{
+
+.feature-left-gallary {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 }
-.feat-color{
+
+.feat-color {
     color: var(--primary-color);
 }
-.feat-quick{
+
+.feat-quick {
     font-weight: 500;
     color: #2c2c2c;
     margin: 1rem 0;
 }
+
 /* Feature CSS End */
 
-/*  CSS Start */
-/*  CSS End */
+/* Feature Point CSS Start */
+.feature-point-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 5rem 0;
+    gap: 0 3rem;
+}
+
+.feature-point-section>div {
+}
+
+.feat-title {
+    border-left: .4rem solid var(--primary-color);
+    padding-left: 1rem;
+}
+.feat-points{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem 0;
+}
+.point {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.point > h3{
+    font-weight: 600;
+    color: #2c2c2c;
+    margin: 1rem 0;
+}
+.point-left{
+    width: 45%;
+}
+.point-right{
+    width: 45%;
+    text-align: right;
+}
+.expreience{
+    width: max-content;
+    position: relative;
+    padding: 2rem 3rem;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--primary-color);
+    top: -50px;
+    left: -50px;
+}
+.expreience h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: .3rem;
+}
+/* Feature Point CSS End */
 
 /*  CSS Start */
 /*  CSS End */

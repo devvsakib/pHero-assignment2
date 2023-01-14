@@ -1,7 +1,8 @@
 @media (max-width: 992px) {
-header{
-    padding: 2rem 4rem !important;
-}
+    header {
+        padding: 2rem 4rem !important;
+    }
+
     .banner-content {
         width: 100%;
     }
@@ -106,13 +107,6 @@ header{
         text-align: center;
     }
 
-
-
-
-
-
-
-
     .feature-point-section {
         flex-direction: column;
         gap: 3rem 0;
@@ -149,7 +143,7 @@ header{
     }
 
     .fact-cards {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 3rem 0;
     }
 
@@ -172,4 +166,11 @@ header{
         grid-template-columns: repeat(1, 1fr);
     }
 
+}
+
+@media (max-width: 576px) {
+    .fact-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem 0;
+    }
 }

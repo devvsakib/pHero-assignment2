@@ -1,0 +1,33 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+
+/* Colors and Unit */
+:root{
+    --description-color: #727272;
+    --primary-color: #FF900E;
+    --title-size: 2rem;
+    --banner-bg: #ff8f0e54;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    outline: none;
+    background: none;
+}

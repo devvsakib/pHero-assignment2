@@ -79,16 +79,16 @@
 
 @media (max-width: 776px) {
     header {
+        flex-direction: column;
         justify-content: center;
     }
-
+    .menu-container{
+        margin-top: 1rem;
+    }
     .logo {
         font-size: 1.4rem;
     }
 
-    .menu-container {
-        display: none;
-    }
 
     .banner-content {
         width: 100%;
@@ -172,5 +172,16 @@
     .fact-cards {
         grid-template-columns: repeat(1, 1fr);
         gap: 3rem 0;
+    }
+    .menu{
+        gap: 0 .6rem
+    }
+}
+@media (max-width: 340px) {
+    .menu{
+        gap: 0 .6rem
+    }
+    .menu li a{
+        font-size: 0.8rem;
     }
 }

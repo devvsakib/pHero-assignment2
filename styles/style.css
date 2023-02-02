@@ -107,7 +107,6 @@ header {
 /* Banner CSS Start */
 
 .banner-content {
-    width: 50vw;
     margin: 0 auto;
     text-align: center;
     padding: 2rem 0;
@@ -288,11 +287,11 @@ header {
 
 .testimonial-card {
     padding: 2rem;
-    background-color: #f8dfc275;
+    background-color: #e7e4e075;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(228, 62, 11, 0.09);
-    border: 1px solid #c2c2c298;
+    border: 1px solid #50098a5b;
 }
 
 .card-author {
